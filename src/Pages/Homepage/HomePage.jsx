@@ -4,6 +4,8 @@ import CadastroPage from '../CadastroPage/CadastroPage'; // importa o componente
 import DsWeb from '../DesenvolvimentoWeb/DsWeb';
 import AiDados from '../AiDados/AiDados';
 import CyberSecurity from '../CyberSecurity/CyberSecurity';
+import BancoDados from '../BancoDeDados/BancoDados';
+import CloudComputing from '../CloudComputing/CloudComputing';
 
 const HomePage = () => {
   const [showCadastro, setShowCadastro] = useState(false);
@@ -49,10 +51,10 @@ const HomePage = () => {
           <DsWeb/>
           <AiDados/>
           <CyberSecurity/>
+          <BancoDados/>
+          <CloudComputing/>
         {/*
-        <div className="step">
-          <a href="contents/bancodedados.html">Banco de Dados</a>
-        </div>
+        
         <div className="step">Cloud-Computing</div>
         <div className="step">Infraestrutura e Redes</div>
         <div className="step">Game Development</div>
