@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './homepage.css';
 import CadastroPage from '../CadastroPage/CadastroPage'; // importa o componente popup
+import DsWeb from '../DesenvolvimentoWeb/DsWeb';
+import AiDados from '../AiDados/AiDados';
+import CyberSecurity from '../CyberSecurity/CyberSecurity';
 
 const HomePage = () => {
   const [showCadastro, setShowCadastro] = useState(false);
@@ -43,15 +46,10 @@ const HomePage = () => {
       </div>
 
       <div className="roadmap-grid">
-        <div className="step">
-          <a href="contents/web.html">Desenvolvimento Web</a>
-        </div>
-        <div className="step">
-          <a href="contents/aiedados.html">AI e Dados</a>
-        </div>
-        <div className="step">
-          <a href="contents/cybersecurity.html">Segurança Cibernética</a>
-        </div>
+          <DsWeb/>
+          <AiDados/>
+          <CyberSecurity/>
+        {/*
         <div className="step">
           <a href="contents/bancodedados.html">Banco de Dados</a>
         </div>
@@ -64,7 +62,7 @@ const HomePage = () => {
         <div className="step">Sistemas Embarcados</div>
         <div className="step">Desenvolvimento Mobile</div>
         <div className="step">UI-UX Design</div>
-        <div className="step">Hardware</div>
+        <div className="step">Hardware</div> */}
       </div>
 
       {/* Popup de cadastro */}

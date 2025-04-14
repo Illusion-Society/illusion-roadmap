@@ -34,11 +34,11 @@ const CadastroPage = ({ show, onClose }) => {
 
         <div className="social-buttons">
           <button type="button" className="google-btn">
-            <img src="Imagens/icons8-google.svg" alt="Google logo" />
+            <img src="public/imgs/icons8-google.svg" alt="Google logo" />
             Cadastre-se com o Google
           </button>
           <button type="button" className="github-btn">
-            <img src="Imagens/icons8-github.svg" alt="Github logo" />
+            <img src="public/imgs/icons8-github.svg" alt="Github logo" />
             Cadastre-se com o GitHub
           </button>
         </div>
