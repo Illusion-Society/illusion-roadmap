@@ -6,7 +6,7 @@ const CloudComputing = () => {
     <>
     <div className='roadmap-grid'>
                 <div className="step">
-                    <a href="contents/cybersecurity.html">Cloud Computing</a>
+                    <a href="contents/cybersecurity.html">Infraestrutura, Redes e Cloud</a>
                 </div>
             </div>
             </>

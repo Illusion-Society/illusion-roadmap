@@ -6,6 +6,12 @@ import AiDados from '../AiDados/AiDados';
 import CyberSecurity from '../CyberSecurity/CyberSecurity';
 import BancoDados from '../BancoDeDados/BancoDados';
 import CloudComputing from '../CloudComputing/CloudComputing';
+import GameDevelop from '../DevGames/GameDevelop';
+import Dados from '../Dados/Dados';
+import TecEmergentes from '../TecEmergentes/TecEmergentes';
+import SisEmbarque from '../SistemasEmbarcados/SisEmbarque';
+import DevMobile from '../DevMobile/DevMobile';
+import Hardware from '../Hardware/Hardware';
 
 const HomePage = () => {
   const [showCadastro, setShowCadastro] = useState(false);
@@ -47,24 +53,18 @@ const HomePage = () => {
         <p>Diversos guias de aprendizado na área de tecnologia</p>
       </div>
 
-      <div className="roadmap-grid">
+      <div className="roadmap-grid" style={{gap: '2px'}}>
           <DsWeb/>
           <AiDados/>
           <CyberSecurity/>
           <BancoDados/>
           <CloudComputing/>
-        {/*
-        
-        <div className="step">Cloud-Computing</div>
-        <div className="step">Infraestrutura e Redes</div>
-        <div className="step">Game Development</div>
-        <div className="step">Dados</div>
-        <div className="step">Tecnologia Aplicada</div>
-        <div className="step">Tecnologias Emergentes</div>
-        <div className="step">Sistemas Embarcados</div>
-        <div className="step">Desenvolvimento Mobile</div>
-        <div className="step">UI-UX Design</div>
-        <div className="step">Hardware</div> */}
+          <GameDevelop/>
+          <Dados/>
+          <TecEmergentes/>
+          <SisEmbarque/>
+          <DevMobile/>
+          <Hardware/>
       </div>
 
       {/* Popup de cadastro */}
