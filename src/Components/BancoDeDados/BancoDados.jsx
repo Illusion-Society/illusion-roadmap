@@ -1,5 +1,6 @@
 import React from 'react'
 import './bancodados.css'
+import { Link } from 'react-router-dom'
 
 
 const BancoDados = () => {
@@ -7,7 +8,7 @@ const BancoDados = () => {
         <>
             <div className='roadmap-grid'>
                 <div className="step">
-                    <a href="contents/cybersecurity.html">Banco de Dados</a>
+                    <Link to="/database">Banco de Dados</Link>
                 </div>
             </div>
         </>

@@ -1,15 +1,16 @@
 import React from 'react'
 import './cloudcomputing.css'
+import { Link } from 'react-router-dom'
 
 const CloudComputing = () => {
   return (
     <>
     <div className='roadmap-grid'>
-                <div className="step">
-                    <a href="contents/cybersecurity.html">Infraestrutura, Redes e Cloud</a>
-                </div>
-            </div>
-            </>
+<div className="step">
+      <Link to="/infraredes">Infraestrutura e Redes</Link>
+    </div>
+    </div>
+    </>
   )
 }
 
