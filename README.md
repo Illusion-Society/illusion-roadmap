@@ -1,12 +1,29 @@
-# React + Vite
+# Illusion Roadmap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
 
-Currently, two official plugins are available:
+O **Illusion Roadmap** é uma plataforma que oferece roadmaps interativos para diferentes áreas do conhecimento, com foco em tecnologia e desenvolvimento. Este projeto visa fornecer uma visão clara do caminho a seguir para quem deseja aprender sobre diversas disciplinas, desde programação web até infraestrutura em nuvem e redes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## Expanding the ESLint configuration
+- **Roadmaps Interativos**: Cada área de conhecimento possui um roadmap visual que permite ao usuário seguir um caminho claro de aprendizado.
+- **Links Úteis**: Cada etapa do roadmap é acompanhada de links que direcionam o usuário para conteúdos relevantes e cursos online.
+- **Interface Moderna**: Design responsivo e fácil de usar, com animações e transições suaves.
+- **Acesso Rápido a Conteúdos**: Estrutura otimizada para navegação fácil e ágil através dos roadmaps.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Áreas de Conhecimento
+
+O projeto cobre diversas áreas de conhecimento, incluindo, mas não se limitando a:
+
+- Desenvolvimento Web
+- Redes e Infraestrutura
+- Banco de Dados
+- Cibersegurança
+- E muito mais...
+
+## Estrutura do Projeto
+
+O repositório é dividido em várias seções, cada uma dedicada a um roadmap específico. Cada roadmap é construído com componentes React, garantindo uma experiência interativa e moderna.
+
+### Exemplo de Estrutura de Diretórios
+
