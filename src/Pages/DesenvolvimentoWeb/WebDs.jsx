@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './dsWeb.css'; // Certifique-se de que esse CSS existe
+import './dsweb.css'; // Certifique-se de que esse CSS existe
 import NavBar from '../../Components/NavBar/NavBar';
 
 const WebDs = () => {

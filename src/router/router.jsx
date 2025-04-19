@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import HomePage from '../Pages/Home/HomePage';
 import WebDs from '../Pages/DesenvolvimentoWeb/WebDs';
-import DadosAi from '../Pages/AIDados/DadosAi';
+// import DadosAi from '../Pages/AIDados/DadosAi.jsx';
+import DadosAi from '../Pages/AiDados/DadosAi';
 import CyberSec from '../Pages/SecurityCyber/CyberSec';
 import Database from '../Pages/DatabaseD/Database';
 import InfraRedes from '../Pages/InfraRedes/InfraRedes';
